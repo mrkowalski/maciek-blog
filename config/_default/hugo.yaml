@@ -16,6 +16,13 @@ params:
   images:
     # Default image used in Open Graph, see https://gohugo.io/templates/embedded/#configure-open-graph
     - favicon.ico # /static/favicon.ico
+  dateFormat: 02 January 2006 # See https://gohugo.io/functions/time/format/
+  author: Maciej Kowalski # Default author, supports single value or list, used in single page
+  footer:
+    copyright:
+      #yearStart: 2023 # Optional
+      #yearEnd: 2025 # Optional, default value: current year
+      author: Maciej Kowalski
 
 frontmatter:
   lastmod: ['lastmod', ':default'] # lastmod in front matter has highest precedence
@@ -76,11 +83,3 @@ languages:
         - name: About
           pageRef: /about
           weight: 50
-    params:
-      dateFormat: 02 January 2006 # See https://gohugo.io/functions/time/format/
-      author: Maciej Kowalski # Default author, supports single value or list, used in single page
-      footer:
-        copyright:
-          #yearStart: 2023 # Optional
-          #yearEnd: 2025 # Optional, default value: current year
-          author: Maciej Kowalski
