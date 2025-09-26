@@ -1,6 +1,6 @@
 ---
-title: Picture 01
-slug: picture-01
+title: Rysunek abstrakcyjny numer 4
+slug: abstract-04
 date: 2025-09-26T10:14:35+02:00
 # lastmod: 2025-09-26T10:14:35+02:00 # Last modification date
 tags:
@@ -12,4 +12,4 @@ categories:
 # draft: true
 ---
 
-![Abstract Image 04](abstract-04.jpg)
+![Rysunek abstrakcyjny numer 4](abstract-04.jpg)
