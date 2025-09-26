@@ -83,3 +83,5 @@ languages:
         - name: About
           pageRef: /about
           weight: 50
+
+#https://discourse.gohugo.io/t/do-all-page-bundles-need-localized-copies-once-you-add-a-new-language/37225
